@@ -20,6 +20,8 @@
     <h1>{slice.primary.title}</h1>
 
     <p>{slice.primary.paragraaf[0].text}</p> 
+
+    <a href={slice.primary.githublink.url}>Bezoek mijn Github</a>
   </section>
 
 
