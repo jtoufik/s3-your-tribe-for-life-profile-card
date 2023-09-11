@@ -1,2 +1,10 @@
-<h1>Mohamed Jalal Toufik</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<script>
+    import { SliceZone } from "@prismicio/svelte"
+    import { components } from "$lib/slices"
+
+    export let data
+</script>
+
+
+<SliceZone slices={data.slices} {components} />
