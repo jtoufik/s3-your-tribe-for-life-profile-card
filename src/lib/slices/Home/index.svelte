@@ -70,7 +70,7 @@
   }
 
   h1{
-    font-family: NeonClubMusic;
+    font-family: NeonClubMusic, roboto, helvetica, arial, sans-serif;
     padding-top: 1em;
   }
 
