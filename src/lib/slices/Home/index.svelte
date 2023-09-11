@@ -30,10 +30,6 @@
 
 <style>
 
-@font-face {
-  font-family: 'NeonClubMusic';
-  src: url('/src/lib/slices/Home/fonts/NEON-CM/NEON\ CLUB\ MUSIC_bold.otf');
-}
 
   section{
     display: grid;
@@ -41,6 +37,7 @@
     height: 100vh;
 
     font-family: roboto, helvetica, arial, sans-serif;
+    letter-spacing: 2px;
   }
 
   .card{
@@ -72,8 +69,9 @@
   }
 
   h1{
-    font-family: NeonClubMusic, roboto, helvetica, arial, sans-serif;
+    font-size: 1.5em;
     padding-top: 1em;
+    font-weight: 400;
   }
 
   p{
@@ -81,7 +79,10 @@
     text-align: center;
     border-top: solid 3px grey;
     padding-top: 2em;
-    letter-spacing: 2px;
+  }
+
+  a{
+    padding-top: 1em;
   }
 
   /* background animatie */
